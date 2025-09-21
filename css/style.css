@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* font-family: "Special Elite", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+/* font-family: "Rock Salt", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+/* font-family: "Cinzel Decorative", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+/* font-family: "Roboto Slab", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+/* font-family: "Finger Paint", sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/background.png) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: #070707;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Special Elite", system-ui;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 2.1rem;
+    color: #f4dfc4;
+}
+nav img{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+main{
+    background: url(../img/hero_section_img.png) no-repeat center center/cover;
+    height: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: "Special Elite", system-ui;
+}
+main h1{
+    color: #eedec9;
+    font-size: 2.4rem;
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+main a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/background-button.png) no-repeat center center/cover;
+    height: 100px;
+    width: 165px;
+    font-size: 1.35rem;
+    text-decoration: none;
+    color: #eedec9;
+}
+
+.history header{
+    font-family: "Special Elite", system-ui;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-top: 30px;
+}
+.history header img{
+    width: 650px;
+}
+.history_content{
+    font-family: "Finger Paint", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-inline: 60px;
+}
+.history_content p{
+    margin-bottom: 50px;
+}
+.spanTitle{
+    color: #bd0000;
+    font-size: 1.6rem;
+}
+.earlyYears{
+    text-align: end;
+}
+.tragedyAndNightmare{
+    text-align: end;
+}
+.brooksWackerman{
+    text-align: end;
+}
+
+.tour{
+    background: url(../img/skull-with-chair.png) no-repeat center center/cover;
+    height: 1880px;
+    width: 100%;
+    font-family: "Special Elite", system-ui;
+}
+.tour aside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: end;
+    padding-top: 280px;
+    padding-right: 110px;
+}
+.tourCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #eedec9;
+}
+.tourCard h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.tourCard h3{
+    margin-bottom: 5px;
+}
+.tourTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 5.8rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.tourTitle span{
+    color: #bd0000;
+}
+.tickets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/tour_button.png) no-repeat center center/cover;
+    height: 48px;
+    width: 160px;
+    text-decoration: none;
+    color: #eedec9;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.tourCard img{
+    width: 800px;
+}
+.dates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/tour_button.png) no-repeat center center/cover;
+    height: 100%;
+    width: auto;
+    text-decoration: none;
+    color: #eedec9;
+    font-size: 1.5rem;
+    padding: 14px;
+    margin-top: 80px;
+}
+
+.footerInfo{
+    font-family: "Special Elite", system-ui;
+}
