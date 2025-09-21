@@ -12,7 +12,7 @@ inspirada no site oficial deles.
 
 ## Tecnologias usadas
 * **HTML:** Utilizado para criar o esqueleto de todo o site
-* * **CSS:** Utilizado para aplicar toda a estilização do site
+* **CSS:** Utilizado para aplicar toda a estilização do site
 
 ##
 
