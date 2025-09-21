@@ -1,6 +1,6 @@
 # Fanpage sobre a banda "Avenged Sevenfold"
 
-**[Clique aqui para ver o site completo!]()**
+**[Clique aqui para ver o site completo!](https://jaogui08.github.io/a7x_fanpage_website)**
 
 ## Prévia
 
