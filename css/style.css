@@ -70,6 +70,9 @@ main a{
     text-decoration: none;
     color: #eedec9;
 }
+main a:hover{
+    transform: scale(1.05);
+}
 
 .history header{
     font-family: "Special Elite", system-ui;
@@ -159,6 +162,9 @@ main a{
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
+.tickets:hover{
+    transform: scale(1.05);
+}
 .tourCard img{
     width: 800px;
 }
@@ -175,7 +181,43 @@ main a{
     padding: 14px;
     margin-top: 80px;
 }
+.dates:hover{
+    transform: scale(1.10);
+}
 
 .footerInfo{
     font-family: "Special Elite", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footerInfo h1{
+    font-size: 5.2rem;
+    padding-top: 170px;
+}
+.footerInfo h3{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.socialMedias a{
+    text-decoration: none;
+    margin-inline: 2px;
+}
+.socialMedias img{
+    width: 30px;
+}
+.footerInfo p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
 }

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* font-family: "Special Elite", system-ui; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/background.png) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: #070707;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Special Elite", system-ui;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 2.1rem;
+    color: #f4dfc4;
+}
+nav img{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+main{
+    font-family: "Special Elite", system-ui;
+}
+main header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-inline: 50px;
+    margin-bottom: 10px;
+}
+.tickets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/tour_button.png) no-repeat center center/cover;
+    height: 48px;
+    width: 160px;
+    text-decoration: none;
+    color: #eedec9;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.tickets:hover{
+    transform: scale(1.05);
+}
+
+.footerInfo{
+    font-family: "Special Elite", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footerInfo h1{
+    font-size: 5.2rem;
+    padding-top: 170px;
+}
+.footerInfo h3{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.socialMedias a{
+    text-decoration: none;
+    margin-inline: 2px;
+}
+.socialMedias img{
+    width: 30px;
+}
+.footerInfo p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}

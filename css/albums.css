@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* font-family: "Special Elite", system-ui; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/background.png) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: #070707;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Special Elite", system-ui;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 2.1rem;
+    color: #f4dfc4;
+}
+nav img{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+main{
+    font-family: "Special Elite", system-ui;
+}
+main header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+.albumsCard{
+    text-align: center;
+    margin-inline: 40px;
+}
+.albumsCard img{
+    width: 400px;
+}
+.albumsCard img:hover{
+    transform: scale(1.05);
+}
+.albumsCard h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contender1{
+    display: flex;
+    justify-content: center;
+}
+.contender2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contender3{
+    display: flex;
+    justify-content: center;
+}
+.contender4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.cardsDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.7rem;
+    padding-top: 80px;
+    margin-bottom: 70px;
+}
+
+.footerInfo{
+    font-family: "Special Elite", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footerInfo h1{
+    font-size: 5.2rem;
+    padding-top: 170px;
+}
+.footerInfo h3{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.socialMedias a{
+    text-decoration: none;
+    margin-inline: 2px;
+}
+.socialMedias img{
+    width: 30px;
+}
+.footerInfo p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
