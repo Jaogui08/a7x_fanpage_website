@@ -6,7 +6,7 @@
 
 <img width="1893" height="931" alt="image" src="https://github.com/user-attachments/assets/0f981b45-3c58-430b-b10a-e9a0e6cfdee0" />
 
-Fiz esse site para treinar e testar meus conhecimentos sobre HTMl e CSS, uma fanpage sobre minha banda favorita, "Avenged Sevenfold", o site contêm
+Fiz esse site para treinar e testar meus conhecimentos sobre HTML e CSS, uma fanpage sobre minha banda favorita, "Avenged Sevenfold", o site contêm
 informações sobre a história, tours e álbuns da banda, com um design chamativo junto de imagens e gifs para deixar mais "interativo", com a maior parte
 inspirada no site oficial deles.
 
